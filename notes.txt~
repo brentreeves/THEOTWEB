@@ -1,0 +1,6 @@
+brew install gh
+
+gh auth login
+... do the things
+
+gh api /repos/brentreeves/theotapi/issues

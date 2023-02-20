@@ -1,0 +1,25 @@
+{
+    "name": "theotapi",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "theot api",
+    "main": "n1.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brentreeves/theotapi.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/brentreeves/theotapi/issues"
+    },
+    "homepage": "https://github.com/brentreeves/theotapi#readme",
+    "dependencies": {
+        "@octokit/rest": "^19.0.7",
+        "dotenv": "^16.0.3",
+        "github-api": "^3.4.0"
+    }
+}
