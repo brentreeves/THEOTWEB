@@ -1,113 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>THEOT</title>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      body {background-color: #E8E4DD}
-      
-      .navbar-nav .nav-link {
-	  margin-right: 25px;
-	  margin-left: 25px;
-      }
+    <!-- Bootstrap CSS -->
 
-      
-      ul.header-images {
-	  display: flex;
-	  flex-wrap: wrap;
-	  padding-left:0px;
-      }
+    <!--
+	link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous" />
+      -->
 
-      li.header-img {
-	  height: 90vh;
-	  flex-grow: 1;
-	  list-style-type: none
-      }
+    <!-- Bootstrap icons -->
+    <!-- 
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+	 -->
 
-      img {
-	  max-height: 100%;
-	  min-width: 100%;
-	  object-fit: cover;
-	  vertical-align: bottom;
-      }
-      
-      .hdr-img-container {
-	  position: relative;
-      }
+	 <link rel="stylesheet" type="text/css" href="THEOT-videos_files/main.css">
 
-      .hdr-img-center {
-	  position: absolute;
-	  top: 50%;
-	  width: 100%;
-	  text-align: center;
-	  font-size: 18px;
-      }
+	 <!-- Favicon-->
+	 <link rel="icon" type="image/x-icon" href="http://theot.herokuapp.com/assets/favicon.ico">
 
-      .hdr-img { 
-	  width: 100%;
-	  height: auto;
-	  opacity: 0.3;
-      }
-      
-      h1 { color: white; }
-      h3 { color: white; }
-
-    </style>
+	 <meta name="description" content="">
+	 <meta name="author" content="">
   </head>
-  <body class="p-3 m-0 border-0 bd-example">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-5" >
-      <div class="container-fluid">
-	<a class="navbar-brand" href="#" style="position:relative;right:0px;">THEOT</a>
-	<div class="ml-auto">
+  <body class="bg-light">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container px-5">
+	<a class="navbar-brand" href="http://theot.herokuapp.com/home">THEOT</a>
 
-	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse gx-3" id="navbarNavDropdown">
-	    <ul class="navbar-nav gx-3">
-	      <li class="nav-item">
-		<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-	      </li>
-	      <li class="nav-item">
-		<a class="nav-link" href="#">About</a>
-	      </li>
-	      <li class="nav-item dropdown">
-		<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-		  Reports on Books
-		</a>
-		<ul class="dropdown-menu">
-		  <li><a class="dropdown-item" href="#">Deuteronomy</a></li>
-		  <li><a class="dropdown-item" href="#">Judges</a></li>
-		  <li><a class="dropdown-item" href="#">Esther</a></li>
-		  <li><a class="dropdown-item" href="#">Ecclesiastes</a></li>
-		  <li><a class="dropdown-item" href="#">Daniel</a></li>
-		  <li><a class="dropdown-item" href="#">Hosea</a></li>
-		  <li><a class="dropdown-item" href="#">Amos</a></li>
-		  <li><a class="dropdown-item" href="#">Obadiah</a></li>
-		  <li><a class="dropdown-item" href="#">Nahum</a></li>
-		  <li><a class="dropdown-item" href="#">Zechariah</a></li>
-		</ul>
-	      </li>
-	      <li class="nav-item">
-		<a class="nav-link" href="#">Text Viewer</a>
-	      </li>
-	      <li class="nav-item">
-		<a class="nav-link" href="#">Visualizations</a>
-	      </li>
-	      <li class="nav-item">
-		<a class="nav-link" href="docs/videos.html">Videos</a>
-	      </li>
-	      <li class="nav-item">
-		<a class="nav-link" href="#">Manuscripts</a>
-	      </li>
-	    </ul>
-	  </div>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+	    <li class="nav-item"><a class="nav-link" href="http://theot.herokuapp.com/home">Home</a></li>
+	    <li class="nav-item"><a class="nav-link">|</a></li>
+	    <li class="nav-item"><a class="nav-link" href="http://theot.herokuapp.com/about">About</a></li>
+	    <li class="nav-item"><a class="nav-link">|</a></li>
+	    <li class="nav-item"><a class="nav-link" href="http://theot.herokuapp.com/reports">Reports on Books</a></li>
+	    <li class="nav-item"><a class="nav-link">|</a></li>
+	    <li class="nav-item"><a class="nav-link" href="http://theot.herokuapp.com/textViewer">Text Viewer</a></li>
+	    <li class="nav-item"><a class="nav-link">|</a></li>
+
+	    <li class="nav-item"><a class="nav-link" href="http://theot.herokuapp.com/visualize">Visualizations</a></li>
+	    <li class="nav-item"><a class="nav-link">|</a></li>
+	    <li class="nav-item"><a class="nav-link" href="http://theot.herokuapp.com/videos">Videos</a></li>
+	    <li class="nav-item"><a class="nav-link">|</a></li>
+	    <li class="nav-item"><a class="nav-link" href="http://theot.herokuapp.com/manuscripts">Manuscripts</a></li>
+	  </ul>
 	</div>
       </div>
     </nav>
