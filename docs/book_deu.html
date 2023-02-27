@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>THEOT</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+      body {background-color: #E8E4DD}
+      
+      .navbar-nav .nav-link {
+	  margin-right: 25px;
+	  margin-left: 25px;
+      }
+
+      
+      ul.header-images {
+	  display: flex;
+	  flex-wrap: wrap;
+	  padding-left:0px;
+      }
+
+      li.header-img {
+	  height: 90vh;
+	  flex-grow: 1;
+	  list-style-type: none
+      }
+
+      img {
+	  max-height: 100%;
+	  min-width: 100%;
+	  object-fit: cover;
+	  vertical-align: bottom;
+      }
+      
+      .hdr-img-container {
+	  position: relative;
+      }
+
+      .hdr-img-center {
+	  position: absolute;
+	  top: 50%;
+	  width: 100%;
+	  text-align: center;
+	  font-size: 18px;
+      }
+
+      .hdr-img { 
+	  width: 100%;
+	  height: auto;
+	  opacity: 0.3;
+      }
+      
+      h1 { color: white; }
+      h3 { color: white; }
+
+    </style>
+  </head>
+
+  <body class="p-3 m-0 border-0 bd-example">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-5" >
+      <div class="container-fluid">
+	<a class="navbar-brand" href="#" style="position:relative;right:0px;">THEOT</a>
+	<div class="ml-auto">
+
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse gx-3" id="navbarNavDropdown">
+	    <ul class="navbar-nav gx-3">
+	      <li class="nav-item">
+		<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" href="#">About</a>
+	      </li>
+	      <li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		  Reports on Books
+		</a>
+		<ul class="dropdown-menu">
+		  <li><a class="dropdown-item" href="#">Deuteronomy</a></li>
+		  <li><a class="dropdown-item" href="#">Judges</a></li>
+		  <li><a class="dropdown-item" href="#">Esther</a></li>
+		  <li><a class="dropdown-item" href="#">Ecclesiastes</a></li>
+		  <li><a class="dropdown-item" href="#">Daniel</a></li>
+		  <li><a class="dropdown-item" href="#">Hosea</a></li>
+		  <li><a class="dropdown-item" href="#">Amos</a></li>
+		  <li><a class="dropdown-item" href="#">Obadiah</a></li>
+		  <li><a class="dropdown-item" href="#">Nahum</a></li>
+		  <li><a class="dropdown-item" href="#">Zechariah</a></li>
+		</ul>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" href="#">Text Viewer</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" href="#">Visualizations</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" href="docs/videos.html">Videos</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" href="#">Manuscripts</a>
+	      </li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+    </nav>
+
+    <!-- Navigation-->
+
+    <div class="container">
+      <div class="row ">
+	<div class="col-3 text-left" style="font-size: 26px;">
+	  <h1>Report on Ethiopic Deuteronomy</h1>
+	  <p><i>Turning text into numbers.</i></p>
+	  <p><i>Identifying patterns in the numbers.</i></p>
+	  <p><i>Turning numbers into stories.</i></p>
+	</div>
+	<div class="col-9 text-left mt-auto">
+	  <table style="width:100%">
+	    <tbody><tr>
+		<th>Topics</th>
+		<th>Videos</th>
+		<th>Sheets</th>
+		<th>PPT</th>
+		<th>Tableau</th>
+		<th>Web</th>
+	      </tr>
+	      <tr>
+		<td style="color:#ea4335; background-color:#ffffff"><i><b></b></i></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">What is the Study of Textual History?</td>
+		<td><a href="https://youtu.be/HAwSxcbFIhA">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1GRjbOBLJHpDY53P6k10vnuZ8eva-Bv9hJeHh6__Q3aI/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">How and Why Statistical Profiles Work for Textual History</td>
+		<td><a href="https://youtu.be/1OegbnmB848">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1bMj1HCiZlAMAFdP03H7jZk7YFY1vfFxAAt1tdiMbtaU/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Samples, Populations, and Textual History</td>
+		<td><a href="https://youtu.be/ckIM1cNeU34">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1MBpaU4Yv1V7ktEnArbTozFLVpeooL7viCk7zNUbFP2k/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Bell-Shaped Curves &amp; Textual History</td>
+		<td><a href="https://youtu.be/hKJJhhDTaXs">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1n9ABejhzsdFG5ozIT6UN9-7DRfyMileNQdcQ0IYnHgA/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Introduction to the THEOT Text Viewer, Basic</td>
+		<td><a href="https://youtu.be/6NIcd6Nw7nM">Video</a><br></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Introduction to the THEOT Text Viewer, Advanced</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Manuscripts Used in the THEOT Project</td>
+		<td></td>
+		<td><a href="https://docs.google.com/spreadsheets/d/19WVNP4gEThNlF22naIkZIV9jgS6bzNzzQ-bord6ciSw/edit#gid=1679364859">Link to Sheet 1</a><br></td>
+		<td></td>
+		<td><a href="https://public.tableau.com/app/profile/stephen.delamarter/viz/THEOT-ChronologicalDistributionofManuscripts-Nov122022/MssinBooksChronology?publish=yes">Tableau</a><br></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">(cont.)</td>
+		<td></td>
+		<td><a href="https://docs.google.com/spreadsheets/d/1g3sX_Q_HT-ygKO3ZizWHEvXm6BGC-2l54Vl6omZd2BY/edit#gid=1938796686">Link to Sheet 2</a><br></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Principles for Creating Samples of Manuscripts and Samples of Text</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Samples of Manuscripts for Deuteronomy</td>
+		<td><br></td>
+		<td><br></td>
+		<td><br></td>
+		<td><a href="https://public.tableau.com/app/profile/stephen.delamarter/viz/THEOT-MapofHoldingInstitutions-Nov122022/MapofHoldingInstitutions?publish=yes">Tableau 1</a><br><br><a href="https://public.tableau.com/app/profile/stephen.delamarter/viz/THEOT-MapofManuscriptLocations-Nov122022/MapofManuscriptLocations?publish=yes">Tableau 2</a><br></td>
+		<td><a href="https://www.bbc.com/">Web</a><br><br></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Samples of Text for Deuteronomy</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Introduction to Manuscript Descriptions</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Creating Accurate Transcriptions</td>
+		<td></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1z4YGz82ti3oqXVmzSUZ2DEh5-Yb-2AOweWxTo8QBGbI/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Transkribus for Making Transcriptions</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Aggregating Transcriptions</td>
+		<td><a href="https://youtu.be/WciZ86BAIOk">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1p7iOXjXu7hcLojhWaMdMInk9O1VCdBV-qCb2omlaNnw/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Aligning Aggregated Texts</td>
+		<td><a href="https://youtu.be/G_ilkzHa3wI">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1UaMv3olkRR0alZvumLgSGhIqtQYYomylhk0F8nLNT6A/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Ensuring Accuracy of Formatting - Validating the Dots and Bars File</td>
+		<td><a href="https://youtu.be/1LWu_hovCB8">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1gO1g7qx1gjDoDiD9i5RfA3pBy7KEe4RJWw6i4xc_KpY/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Quantifying Manuscript Condition</td>
+		<td><a href="https://youtu.be/7lXIWnbkNfI">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1NdqRxa3z4DUERVg34DK8_Emb5YnrMn3gCrVwbtqd5TQ/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Quantifying Scribal Idiosyncrasy </td>
+		<td><a href="https://youtu.be/Fa24pPYu0nM">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1nq9twEhO4BcD4T-pfA7qyNkpO_YPIGETl2tjOffc2J4/present#slide=id.p1">PPT</a><br></td>
+		<td><a href="https://public.tableau.com/app/profile/stephen.delamarter/viz/THEOT-ScribalIdiosyncrasy-ByBook-Nov122022/DB2-UniqueReadings?publish=yes">Tableau</a><br></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">How Scribal Idiosyncrasy Affects the Measurement of Affinity</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Generating the Dendrogram with R</td>
+		<td></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1adnJmAXE9uotJ_m-_62gKaRVjVmQChoouorvYs6Avl8/edit#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">A Look at the Dendrogram for Deuteronomy</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Identifying Variants</td>
+		<td><a href="https://youtu.be/SPg4SDl2tAY">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1zXcdidjH4933aR0WFcA4STZkS5xiZKzJr3lroRmJqy8/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Create Database of Variants</td>
+		<td><a href="https://youtu.be/yIZaEmZXzX0">Video</a><br></td>
+		<td></td>
+		<td><a href="https://docs.google.com/presentation/d/1J9LRUrfdHjB9HgKuKpuYnn9fEa5e6r3dJKQ4cuv5QRM/present#slide=id.p1">PPT</a><br></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Calculating agreement among the Manuscripts</td>
+		<td><a href="https://youtu.be/jymg1ZKC7Q8">Video</a><br></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Generating a “Cluster Profile”</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Generating a List of Best Representatives</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Generating Lists of Cluster Distinctive Readings</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Building Bricks: The Building Blocks of Text Historical Argumentation</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Using Distinctive Readings and Secondary Affiliations to Characterize Clusters</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Characterizing Clusters in Deuteronomy - Eth I, The 14-16th centuries</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Characterizing Clusters in Deuteronomy - Eth II, The 17-20th centuries</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Chart of the Textual History of Deuteronomy</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	      <tr>
+		<td style="color:#000000; background-color:#ffffff">Constructing Diagnostic Steps to Identify the cluster of any new manuscript</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	  </tbody></table>
+
+	</div>
+      </div>
+    </div>
+
+
+  </body>
+  
+</html>
