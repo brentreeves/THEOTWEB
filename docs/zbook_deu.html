@@ -1,20 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>THEOT</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <style>
+
+      body {background-color: #E8E4DD}
+      
+      .navbar-nav .nav-link {
+	  margin-right: 25px;
+	  margin-left: 25px;
+      }
+
+      
+      ul.header-images {
+	  display: flex;
+	  flex-wrap: wrap;
+	  padding-left:0px;
+      }
+
+      li.header-img {
+	  height: 90vh;
+	  flex-grow: 1;
+	  list-style-type: none
+      }
+
+      img {
+	  max-height: 100%;
+	  min-width: 100%;
+	  object-fit: cover;
+	  vertical-align: bottom;
+      }
+      
+      .hdr-img-container {
+	  position: relative;
+      }
+
+      .hdr-img-center {
+	  position: absolute;
+	  top: 50%;
+	  width: 100%;
+	  text-align: center;
+	  font-size: 18px;
+      }
+
+      .hdr-img { 
+	  width: 100%;
+	  height: auto;
+	  opacity: 0.3;
+      }
+      
+      h1 { color: white; }
+      h3 { color: white; }
+
+    </style>
   </head>
 
   <body class="p-3 m-0 border-0 bd-example">
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary py-5" >
       <div class="container-fluid">
-	<a class="navbar-brand" href="index.html" style="position:relative;right:0px;">THEOT</a>
+	<a class="navbar-brand" href="#" style="position:relative;right:0px;">THEOT</a>
 	<div class="ml-auto">
 
 	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -368,16 +419,6 @@
 	</div>
       </div>
     </div>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CCK1Z7TW7V"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CCK1Z7TW7V');
-</script>
 
 
   </body>

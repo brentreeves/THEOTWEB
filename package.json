@@ -19,7 +19,9 @@
     "homepage": "https://github.com/brentreeves/theotapi#readme",
     "dependencies": {
         "@octokit/rest": "^19.0.7",
+        "Base64": "^1.2.0",
         "dotenv": "^16.0.3",
-        "github-api": "^3.4.0"
+        "github-api": "^3.4.0",
+        "octokit": "^2.0.14"
     }
 }
