@@ -19,6 +19,12 @@ $('<img class="fade-in" src="images/' + images[Math.floor(Math.random() * images
   gtag('config', 'G-CCK1Z7TW7V');
 </script>
 
+G-CCK1Z7TW7V
+
+Stream Name THEOT_analytics_stream  
+Stream URL https://brentreeves.github.io/theotapi/
+Stream ID 4751630274
+Measurement Id G-CCK1Z7TW7V
 
 
 
