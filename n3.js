@@ -143,6 +143,7 @@ const createNewTree = async (octo, owner, repo, blobs, paths, parentTreeSha) => 
         tree,
         base_tree: parentTreeSha,
     })
+    console.log('createNewTree returning: ', data)
     return data
 }
 
@@ -174,4 +175,5 @@ const setBranchToCommit = (octo, owner, repo, branch, commitSha) =>
 //createIssuePOST('Mui Importante POST Issue', 'Not kidding, bucko, veh veh POST important.');
 retrieveFile('docs/blee.txt')
 
-pushCommit('docs/rando1.xml')
+// pushCommit('docs/rando1.xml')
+pushCommit('tosend')

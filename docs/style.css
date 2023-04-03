@@ -50,3 +50,14 @@ p.overlay { color: white; }
 div.theot-body {
   margin-left:30px;
 }
+
+a.decorated {
+  text-decoration: none;
+  color: rgb(61, 111, 88);
+  padding:5px;
+}
+a.decorated:hover {
+  text-decoration: none;
+  color: rgb(61, 111, 88);
+  background-color: #D4D2CC;
+}

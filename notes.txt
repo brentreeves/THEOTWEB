@@ -1,3 +1,371 @@
+=====
+2023/03/27
+
+╰─⠠⠵ node n3
+Hello, brentreeves
+pushCommit  docs
+uploadToRepo
+getCurrentCommit
+Filename: docs/blee.txt: Yo.
+
+getCurrentCommit returning  b1162d3177f7de02f04b13ebc7f36e902a1b61f4
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile
+createBlobForFile end.  {
+  sha: '08eee0ae46a88e85ce0b05ce20a1d9b49b14f152',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/08eee0ae46a88e85ce0b05ce20a1d9b49b14f152'
+}
+createBlobForFile end.  {
+  sha: '26203ddad01c35fe04ce0ef3a55516838b2397bb',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/26203ddad01c35fe04ce0ef3a55516838b2397bb'
+}
+createBlobForFile end.  {
+  sha: '6f1128dd203ab8520c3ee0827bfe6c19d339c54c',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/6f1128dd203ab8520c3ee0827bfe6c19d339c54c'
+}
+createBlobForFile end.  {
+  sha: 'b6d143adab5f6bb895afd4bf01eb835e731952ac',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/b6d143adab5f6bb895afd4bf01eb835e731952ac'
+}
+createBlobForFile end.  {
+  sha: '17d2ee2c63eacb250969aa0cacb58312ee22002d',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/17d2ee2c63eacb250969aa0cacb58312ee22002d'
+}
+createBlobForFile end.  {
+  sha: '3e968cab3d26baa2955661ddd00c48f80478d57c',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/3e968cab3d26baa2955661ddd00c48f80478d57c'
+}
+createBlobForFile end.  {
+  sha: 'a5c246d243c01be4847247a784c6cf8e45c55466',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/a5c246d243c01be4847247a784c6cf8e45c55466'
+}
+createBlobForFile end.  {
+  sha: '89fbabbc721f61a071b8fe86a174123b2b9a4b31',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/89fbabbc721f61a071b8fe86a174123b2b9a4b31'
+}
+createBlobForFile end.  {
+  sha: 'bc215394967fdf5802f290e21807647f1e4a2d5e',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/bc215394967fdf5802f290e21807647f1e4a2d5e'
+}
+createBlobForFile end.  {
+  sha: 'c130d6b12245a3a508877ce09a183fafef49c2f1',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/c130d6b12245a3a508877ce09a183fafef49c2f1'
+}
+createBlobForFile end.  {
+  sha: 'b95ea358e4f1378e8e6851f182a4e38198bb78bc',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/b95ea358e4f1378e8e6851f182a4e38198bb78bc'
+}
+createBlobForFile end.  {
+  sha: 'bbbfda961776e9ab53e4c875abb25f6433408d90',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/bbbfda961776e9ab53e4c875abb25f6433408d90'
+}
+createBlobForFile end.  {
+  sha: '656218c4561e2bff7c515d39e8b2d9ee69fdaae1',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/656218c4561e2bff7c515d39e8b2d9ee69fdaae1'
+}
+createBlobForFile end.  {
+  sha: '4bc3ccd4dba7b74fcc6775a77bd9d8bb7a1c1361',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/4bc3ccd4dba7b74fcc6775a77bd9d8bb7a1c1361'
+}
+createBlobForFile end.  {
+  sha: '7ffa767cb6c39d1b86a6358fa9230000be2cc66f',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/7ffa767cb6c39d1b86a6358fa9230000be2cc66f'
+}
+createBlobForFile end.  {
+  sha: '90a7a3a05519217973a5c313e1d75e72d1e6e9f6',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/90a7a3a05519217973a5c313e1d75e72d1e6e9f6'
+}
+createBlobForFile end.  {
+  sha: '74928a1881949a47af04a55f5d46d471612217dc',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/74928a1881949a47af04a55f5d46d471612217dc'
+}
+createBlobForFile end.  {
+  sha: '2aa641f731149310d35b8c4200d2cd7272b01e29',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/2aa641f731149310d35b8c4200d2cd7272b01e29'
+}
+createBlobForFile end.  {
+  sha: '3328af830443b533b7d76c3635c73e12714dd0aa',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/3328af830443b533b7d76c3635c73e12714dd0aa'
+}
+createBlobForFile end.  {
+  sha: '673429cb622bc841d00828e9dbb711e1ba221cb3',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/673429cb622bc841d00828e9dbb711e1ba221cb3'
+}
+createNewTree returning:  {
+  sha: '09244976a7491c94de0832518f6eb1e597c3458f',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/trees/09244976a7491c94de0832518f6eb1e597c3458f',
+  tree: [
+    {
+      path: '.gitignore',
+      mode: '100644',
+      type: 'blob',
+      sha: '573e3425dd19be32b910aaf3b84ae282474a2a5f',
+      size: 622,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/573e3425dd19be32b910aaf3b84ae282474a2a5f'
+    },
+    {
+      path: 'README.md',
+      mode: '100644',
+      type: 'blob',
+      sha: '6d0f901b409529dc2d8c730064ecafe669df15ee',
+      size: 50,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/6d0f901b409529dc2d8c730064ecafe669df15ee'
+    },
+    {
+      path: 'Web_CAP028_120.jpg',
+      mode: '100644',
+      type: 'blob',
+      sha: '08eee0ae46a88e85ce0b05ce20a1d9b49b14f152',
+      size: 263301,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/08eee0ae46a88e85ce0b05ce20a1d9b49b14f152'
+    },
+    {
+      path: 'Web_EMIP02162_WeinerCodex222_Psalms.jpg',
+      mode: '100644',
+      type: 'blob',
+      sha: '26203ddad01c35fe04ce0ef3a55516838b2397bb',
+      size: 271555,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/26203ddad01c35fe04ce0ef3a55516838b2397bb'
+    },
+    {
+      path: 'Web_EMIP1_herroncodex186_Psalter.jpg',
+      mode: '100644',
+      type: 'blob',
+      sha: 'a5c246d243c01be4847247a784c6cf8e45c55466',
+      size: 240290,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/a5c246d243c01be4847247a784c6cf8e45c55466'
+    },
+    {
+      path: 'Web_EMIP925_MaqalaMikael148_Psalter.jpg',
+      mode: '100644',
+      type: 'blob',
+      sha: '6f1128dd203ab8520c3ee0827bfe6c19d339c54c',
+      size: 320795,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/6f1128dd203ab8520c3ee0827bfe6c19d339c54c'
+    },
+    {
+      path: 'book_deu.html',
+      mode: '100644',
+      type: 'blob',
+      sha: '17d2ee2c63eacb250969aa0cacb58312ee22002d',
+      size: 14802,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/17d2ee2c63eacb250969aa0cacb58312ee22002d'
+    },
+    {
+      path: 'book_deu.html~',
+      mode: '100644',
+      type: 'blob',
+      sha: 'b6d143adab5f6bb895afd4bf01eb835e731952ac',
+      size: 13007,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/b6d143adab5f6bb895afd4bf01eb835e731952ac'
+    },
+    {
+      path: 'book_deu_0327.html',
+      mode: '100644',
+      type: 'blob',
+      sha: '3e968cab3d26baa2955661ddd00c48f80478d57c',
+      size: 13386,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/3e968cab3d26baa2955661ddd00c48f80478d57c'
+    },
+    {
+      path: 'books.html',
+      mode: '100644',
+      type: 'blob',
+      sha: '89fbabbc721f61a071b8fe86a174123b2b9a4b31',
+      size: 4502,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/89fbabbc721f61a071b8fe86a174123b2b9a4b31'
+    },
+    {
+      path: 'docs',
+      mode: '040000',
+      type: 'tree',
+      sha: '70f2b4e4719b4e8c64fbf7c88436ce8a2c1887fa',
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/trees/70f2b4e4719b4e8c64fbf7c88436ce8a2c1887fa'
+    },
+    {
+      path: 'heroku_220417.sql',
+      mode: '100644',
+      type: 'blob',
+      sha: 'de4e32a6f2476b500fda79d096a224a2b95850b3',
+      size: 878416,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/de4e32a6f2476b500fda79d096a224a2b95850b3'
+    },
+    {
+      path: 'index.html',
+      mode: '100644',
+      type: 'blob',
+      sha: 'c130d6b12245a3a508877ce09a183fafef49c2f1',
+      size: 6665,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/c130d6b12245a3a508877ce09a183fafef49c2f1'
+    },
+    {
+      path: 'index2.html',
+      mode: '100644',
+      type: 'blob',
+      sha: 'b95ea358e4f1378e8e6851f182a4e38198bb78bc',
+      size: 7304,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/b95ea358e4f1378e8e6851f182a4e38198bb78bc'
+    },
+    {
+      path: 'init.R',
+      mode: '100644',
+      type: 'blob',
+      sha: 'd9263fec7ab9cebd60cce8a9ab8088434b2822cb',
+      size: 343,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/d9263fec7ab9cebd60cce8a9ab8088434b2822cb'
+    },
+    {
+      path: 'logo1.png',
+      mode: '100644',
+      type: 'blob',
+      sha: '90a7a3a05519217973a5c313e1d75e72d1e6e9f6',
+      size: 423303,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/90a7a3a05519217973a5c313e1d75e72d1e6e9f6'
+    },
+    {
+      path: 'manuscript_preview_example.png',
+      mode: '100644',
+      type: 'blob',
+      sha: '673429cb622bc841d00828e9dbb711e1ba221cb3',
+      size: 4583090,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/673429cb622bc841d00828e9dbb711e1ba221cb3'
+    },
+    {
+      path: 'rando.html',
+      mode: '100644',
+      type: 'blob',
+      sha: '4bc3ccd4dba7b74fcc6775a77bd9d8bb7a1c1361',
+      size: 696,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/4bc3ccd4dba7b74fcc6775a77bd9d8bb7a1c1361'
+    },
+    {
+      path: 'rando1.xml',
+      mode: '100644',
+      type: 'blob',
+      sha: '4bc3ccd4dba7b74fcc6775a77bd9d8bb7a1c1361',
+      size: 696,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/4bc3ccd4dba7b74fcc6775a77bd9d8bb7a1c1361'
+    },
+    {
+      path: 'run.R',
+      mode: '100644',
+      type: 'blob',
+      sha: '475b6f22c5208e6e10d55bf21d36bbe7d8a509c2',
+      size: 134,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/475b6f22c5208e6e10d55bf21d36bbe7d8a509c2'
+    },
+    {
+      path: 'style.css',
+      mode: '100644',
+      type: 'blob',
+      sha: 'bc215394967fdf5802f290e21807647f1e4a2d5e',
+      size: 746,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/bc215394967fdf5802f290e21807647f1e4a2d5e'
+    },
+    {
+      path: 'theot-secondary.html',
+      mode: '100644',
+      type: 'blob',
+      sha: 'bbbfda961776e9ab53e4c875abb25f6433408d90',
+      size: 13883,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/bbbfda961776e9ab53e4c875abb25f6433408d90'
+    },
+    {
+      path: 'theot-secondary2.html',
+      mode: '100644',
+      type: 'blob',
+      sha: '656218c4561e2bff7c515d39e8b2d9ee69fdaae1',
+      size: 14659,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/656218c4561e2bff7c515d39e8b2d9ee69fdaae1'
+    },
+    {
+      path: 'theot.html',
+      mode: '100644',
+      type: 'blob',
+      sha: '3328af830443b533b7d76c3635c73e12714dd0aa',
+      size: 5081,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/3328af830443b533b7d76c3635c73e12714dd0aa'
+    },
+    {
+      path: 'theot_oba.csv',
+      mode: '100644',
+      type: 'blob',
+      sha: 'efb11125ab3960a4d403136824654912b6434b1f',
+      size: 58728,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/efb11125ab3960a4d403136824654912b6434b1f'
+    },
+    {
+      path: 'videos.html',
+      mode: '100644',
+      type: 'blob',
+      sha: '2aa641f731149310d35b8c4200d2cd7272b01e29',
+      size: 11058,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/2aa641f731149310d35b8c4200d2cd7272b01e29'
+    },
+    {
+      path: 'zbook_deu.html',
+      mode: '100644',
+      type: 'blob',
+      sha: '7ffa767cb6c39d1b86a6358fa9230000be2cc66f',
+      size: 13901,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/7ffa767cb6c39d1b86a6358fa9230000be2cc66f'
+    },
+    {
+      path: 'zvideos.html',
+      mode: '100644',
+      type: 'blob',
+      sha: '74928a1881949a47af04a55f5d46d471612217dc',
+      size: 9855,
+      url: 'https://api.github.com/repos/brentreeves/theotr/git/blobs/74928a1881949a47af04a55f5d46d471612217dc'
+    }
+  ],
+  truncated: false
+}
+setBranchToCommit:  47a76cc56acae9ad8e6059c0d418571279627866
+uploadToRepo newTree: {
+  sha: '09244976a7491c94de0832518f6eb1e597c3458f',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/trees/09244976a7491c94de0832518f6eb1e597c3458f',
+  tree: [Array],
+  truncated: false
+}  newCommit: {
+  sha: '47a76cc56acae9ad8e6059c0d418571279627866',
+  node_id: 'C_kwDOHHtrTdoAKDQ3YTc2Y2M1NmFjYWU5YWQ4ZTYwNTljMGQ0MTg1NzEyNzk2Mjc4NjY',
+  url: 'https://api.github.com/repos/brentreeves/theotr/git/commits/47a76cc56acae9ad8e6059c0d418571279627866',
+  html_url: 'https://github.com/brentreeves/theotr/commit/47a76cc56acae9ad8e6059c0d418571279627866',
+  author: [Object],
+  committer: [Object],
+  tree: [Object],
+  message: 'Beautiful Commit Msg',
+  parents: [Array],
+  verification: [Object]
+}
+Pushed commit  /Users/bnr01a/Documents/data/projects_current/THEOT/web/theotapi/docs
+
+
+=====
+
+
+
+
+
 random images:
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
