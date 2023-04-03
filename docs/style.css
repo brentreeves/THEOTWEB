@@ -15,7 +15,7 @@ ul.header-images {
 li.header-img {
   height: 90vh;
   flex-grow: 1;
-  list-style-type: none
+  list-style-type: none 
 }
 
 img {
