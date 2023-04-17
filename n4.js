@@ -12,35 +12,36 @@ async function run() {
     const {data: user } = await octokit.request('Get /user')
     console.log(`authenticated as ${user.login}`)
 
-    const {data: bookdeu } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+    const {data: afile } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
         owner: 'brentreeves',
-        repo: 'theotr',
+        repo: 'theotapi',
         path: 't1.html'
         })
 
         // .sha
         // .content
-    const content = Buffer.from(bookdeu.content, 'base64').toString()
+    const content = Buffer.from(afile.content, 'base64').toString()
     const updated = bumpVersion(content)
-        console.log(updated)
+    console.log(`Updated: ${updated}`)
 
     const response = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
     owner: 'brentreeves',
-    repo: 'theotr',
+    repo: 'theotapi',
     path: 't1.html',
     message: 'Boop',
-    content: 'some content for the afile.txt file'
+    content: Buffer.from(updated, 'utf8').toString('base64'),
+    sha: afile.sha
     })
 
-    console.log(response.data)
+    // console.log(response.data)
 }
 
 run()
 
 function bumpVersion(content) {
     return content.replace(
-        /<title>THEOT (\d+)<\/title>/,
-        (_content, content) =>
-        `<title>THEOT (${Number(counter) + 1})<\/title>`
+        /<h1>THEOT \((\d+)/,
+        (_content, counter) =>
+        `<h1>THEOT (${Number(counter) + 1}`
     )
 }
