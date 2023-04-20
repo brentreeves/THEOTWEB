@@ -173,7 +173,9 @@ const setBranchToCommit = (octo, owner, repo, branch, commitSha) =>
 //
 //createIssue('Mui Importante Issue', 'Not kidding, bucko, veh veh important.');
 //createIssuePOST('Mui Importante POST Issue', 'Not kidding, bucko, veh veh POST important.');
-retrieveFile('docs/blee.txt')
+//retrieveFile('docs/blee.txt')
 
 // pushCommit('docs/rando1.xml')
+// pushCommit('tosend/docs/rando3.xml')
+//pushCommit('tosend/docs/rando4.xml')
 pushCommit('tosend')
